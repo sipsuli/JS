@@ -1,0 +1,220 @@
+body {
+    margin: 0;
+}
+
+
+svg.center {
+    fill: #940E3F;
+    height: 25px;
+    position: absolute;
+    margin-left: 10px;
+    margin-top: 3px;
+}
+
+svg.center2 {
+    fill: black;
+    height: 30px;
+    float: right;
+}
+
+svg.center2:hover {
+    fill: green;
+}
+
+svg.center3 {
+    fill: #9BADBF;
+    height: 30px;
+    padding: 12px;
+}
+
+#container > p {
+    color: #9BADBF; 
+}
+
+#container {
+    display: flex;
+    flex-direction: row;
+}
+
+#eta {
+    font-size: 14px;
+    font-family: 'Lato', sans-serif;
+}
+
+.haku {
+    display: flex;
+    position: relative;
+    float: right;
+}
+
+#merkki {
+    display: flex;
+}
+
+#tekstipart {
+    margin-left: 15px;
+    font-family: 'Lato', sans-serif;
+}
+
+#otsikko{
+    font-size: 21px;
+    font-weight: bold;
+}
+
+#otsikkopart {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+
+#box1 {
+    width: 500px;
+    height: 200px;
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: lightgrey;
+    padding: 20px;
+    position: relative;
+}
+
+#content {
+    position: absolute;
+    margin-right: 20px;
+    display: flex;
+    flex-direction: row;
+}
+
+#box2 {
+    width: 500px;
+    height: 200px;
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: lightgrey;
+    padding: 20px;
+}
+
+.boxes {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 50px;
+}
+
+#adding {
+    width: 400px;
+    height: 200px;
+    border: 1.5px dashed #9BADBF;
+    margin-left: 50px;
+}
+
+nav {
+    color: #940E3F;
+    margin-left: 30px;
+    padding: 10px;
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+input {
+    border-radius: 5px;
+    border: 1.4px solid #940E3F;
+    display: inline-block;
+    float: right;
+    margin-right: 20px;
+    font-size: 15px;
+    padding: 8px;
+    margin-bottom: 10px;
+    margin-top: -5px;
+    width: 200px;
+}
+
+a {
+    color: rgb(129, 27, 48);
+    text-decoration-line: none;
+    margin: 20px;
+    font-weight: 700;
+    font-family: 'Lato', sans-serif;
+    font-size: 24px;
+}
+
+.flex-container {
+    display: flex;
+    justify-content: center width: 100%;
+}
+
+section {
+    font-family: 'Lato', sans-serif;
+    font-size: 24px;
+    text-align: center;
+    margin-top: 20px;
+    margin-left: 200px;
+    margin-right: 200px;
+    line-height: 1.6;
+    margin-bottom: 10px;
+}
+
+.header {
+    flex-direction: row;
+    display: flex;
+    height: 200px;
+    width: 100%;
+    margin-top: 10px;
+}
+
+#text {
+    position: absolute;
+    background-color: rgb(95, 223, 64);
+    width: 200px;
+    height: 200px;
+    color: white;
+    text-align: center;
+    width: 50%;
+    left: 0;
+}
+
+#kolmio {
+    width: 0;
+    height: 0;
+    border-bottom: 200px solid rgb(95, 223, 64);
+    border-right: 200px solid transparent;
+    position: absolute;
+    left: -1px;
+}
+
+#kuva {
+    position: relative;
+    display: flex;
+    left: 50%;
+}
+
+img {
+    position: relative;
+    height: 200px;
+    width: 50%;
+    object-fit: cover;
+    transform: scaleX(-1);
+}
+
+#logo {
+    font-size: 60px;
+    margin-top: 40px;
+    font-family: 'Roboto Slab', serif;
+    font-weight: 900;
+    letter-spacing: 4px;
+}
+
+#teksti {
+    font-size: 23px;
+    font-family: 'Roboto Slab', serif;
+}
+
+#logo,
+#teksti {
+    text-align: center;
+}
+
+#kuva2 {
+    background: url(pasta.jpg);
+    width: 30%;
+    border: 1px solid black;
+}
